@@ -1,0 +1,38 @@
+# This code was AI-generated using OpenAI's GPT-4 model
+# Project: AI Mannequin Assistant by Sidhant Negi
+
+class Mannequin:
+    def __init__(self):
+        self.mood = None
+        self.temp = 36.5
+        self.heartbeat = 72
+        self.approved_sources = ["https://updates.companyserver.com"]
+
+    def detect_emotion(self, face, voice):
+        if face == "sad" or voice == "weak":
+            self.mood = "sad"
+            self.respond_gently()
+        elif face == "panic" or voice == "scared":
+            self.mood = "panic"
+            self.protective_response()
+        else:
+            self.mood = "normal"
+            self.neutral_mode()
+
+    def respond_gently(self):
+        print("💡 Hug activated. Voice tone: Soft. Hand: Warm.")
+
+    def protective_response(self):
+        print("🚨 Monitoring vitals. Ready to initiate CPR if needed.")
+
+    def neutral_mode(self):
+        print("✅ Ready to assist. Facial expression: Neutral. Voice: Default.")
+
+    def perform_cpr(self):
+        print("🔴 CPR MODE: Performing chest compressions at 110 bpm...")
+
+    def update_skills(self, source_url):
+        if source_url in self.approved_sources:
+            print("🛠️ Updating skills from trusted source.")
+        else:
+            print("⚠️ Access denied: Unauthorized learning source.")
