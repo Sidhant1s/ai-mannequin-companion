@@ -1,4 +1,4 @@
-# AI Mannequin: Emotion-Aware Medical Assistant
+# AI Mannequin: Emotion-Aware Medical Assistant(conceptual)
 
 ## 🤖 Project Description
 A smart, interactive mannequin designed for emotional companionship and basic medical support, with emergency CPR response and secure AI learning mechanisms.
